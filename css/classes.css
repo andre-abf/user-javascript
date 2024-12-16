@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+figure.foto-legenda{
+	position:relative;
+	width:500px;
+    height:500px;
+	margin:0 10px 10px 0;
+	border:8px solid #FFF;
+	box-shadow:1px 1px 4px #000;
+}
+
+	
+figure.foto-legenda figcaption{
+	position:absolute;
+	width:500px;
+    height:500px;
+	top:0px;
+	background-color:rgba(0,0,0,.4);
+	color:#FFF;
+	padding:10px;
+	box-sizing:border-box;
+	opacity:0;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity:.8;
+}
+

@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#CCC;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.6;	
+}
+
+div#interface{
+	width:990px;
+	margin:0 auto 0 auto;
+	padding:15px;
+	background:#FFF;
+	box-shadow:0 0 1px rgba(0,0,0,1);
+}
+
+header#cabecalho{
+	height:130px;
+	margin-bottom:10px;
+	border-bottom:1px solid #333;
+}
+
+header#cabecalho h1{
+	font:28px "Comic Sans MS", cursive;
+	font-weight:bold;
+	color:#C0C0C0;
+	text-shadow:0 0 1px rgba(0,0,0,.6);
+}
+
+header#cabecalho h2{
+	font:14px "Lucida Console", Monaco, monospace;
+	color:#666;
+	margin:0 0 0 50px;;
+}
+
+header#cabecalho img#icone{
+	position:absolute;
+	top:50px;
+	left:1050px;
+}
+
+nav#menu{
+	display:block;
+}
+
+nav#menu ul{
+	list-style:none;
+	position:absolute;
+	top:20px;
+	left:600px;
+}
+
+nav#menu li{
+	display:inline;
+}
+
+nav#menu a{
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	padding:10px;
+	background:#CCC;
+}
+
+nav#menu h1{
+	display:none;
+}
+
+nav#menu a:hover{
+	background:#999;
+}
+
+article#bloco1 h1{
+	font:28px "Comic Sans MS", cursive;
+	font-weight:bold;
+	color:#C0C0C0;
+}
+
+article#bloco1 p{
+	text-align:justify;
+}
+
+footer{
+	background:#999;
+	font-weight:600;
+	margin-top:10px;
+	padding:10px 0;
+	color:#000;
+	text-align:center;	
+}
+
+
+/*TESTE DE CSS*/
+
+.borda{
+	width:200px;
+	height:200px;
+	margin:30px;
+	border:5px solid #000;
+	border-radius:50%;	
+}
+
+.borda:hover{
+
+	border:5px solid #fff;
+	
+}
